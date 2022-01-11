@@ -3,10 +3,12 @@ package twoSum
 import "fmt"
 
 func Example() {
+	fmt.Println("Two Sum")
 	nums := []int{2, 7, 11, 15}
 	target := 9
+	fmt.Println("nums =", nums, "target =", target)
 	result := twoSum(nums, target)
-	fmt.Println(result)
+	fmt.Println("result =", result)
 }
 
 func twoSum(nums []int, target int) []int {
