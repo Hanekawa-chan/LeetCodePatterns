@@ -5,6 +5,8 @@ import (
 	"raycaster/containsDuplicate"
 	"raycaster/findDisappearedNumbers"
 	"raycaster/gameOfLife"
+	"raycaster/maxProfit"
+	"raycaster/maximumSubarray"
 	"raycaster/missingNumber"
 	"raycaster/singleNumber"
 	"raycaster/twoSum"
@@ -18,4 +20,6 @@ func main() {
 	findDisappearedNumbers.Example()
 	climbingStairs.Example()
 	gameOfLife.Example()
+	maxProfit.Example()
+	maximumSubarray.Example()
 }
