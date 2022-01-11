@@ -1,15 +1,15 @@
 package main
 
 import (
-	"raycaster/climbingStairs"
-	"raycaster/containsDuplicate"
-	"raycaster/findDisappearedNumbers"
-	"raycaster/gameOfLife"
-	"raycaster/maxProfit"
-	"raycaster/maximumSubarray"
-	"raycaster/missingNumber"
-	"raycaster/singleNumber"
-	"raycaster/twoSum"
+	"LeetCodePatterns/climbingStairs"
+	"LeetCodePatterns/containsDuplicate"
+	"LeetCodePatterns/findDisappearedNumbers"
+	"LeetCodePatterns/gameOfLife"
+	"LeetCodePatterns/maxProfit"
+	"LeetCodePatterns/maximumSubarray"
+	"LeetCodePatterns/missingNumber"
+	"LeetCodePatterns/singleNumber"
+	"LeetCodePatterns/twoSum"
 )
 
 func main() {
