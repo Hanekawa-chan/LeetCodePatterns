@@ -8,6 +8,7 @@ import (
 	"LeetCodePatterns/maxProfit"
 	"LeetCodePatterns/maximumSubarray"
 	"LeetCodePatterns/missingNumber"
+	"LeetCodePatterns/rangeSumQuery"
 	"LeetCodePatterns/singleNumber"
 	"LeetCodePatterns/twoSum"
 )
@@ -22,4 +23,5 @@ func main() {
 	gameOfLife.Example()
 	maxProfit.Example()
 	maximumSubarray.Example()
+	rangeSumQuery.Example()
 }
