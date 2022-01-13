@@ -1,7 +1,7 @@
 package main
 
 import (
-	"LeetCodePatterns/Easy/Patterns/countingBits"
+	"LeetCodePatterns/Easy/Patterns/linkedListCycle"
 )
 
 func main() {
@@ -15,5 +15,6 @@ func main() {
 	//maxProfit.Example()
 	//maximumSubarray.Example()
 	//rangeSumQuery.Example()
-	countingBits.Example()
+	//countingBits.Example()
+	linkedListCycle.Example()
 }
