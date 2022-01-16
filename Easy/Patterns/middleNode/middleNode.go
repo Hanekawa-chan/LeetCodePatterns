@@ -6,7 +6,7 @@ import (
 )
 
 func Example() {
-	fmt.Println("\nLinked List Cycle")
+	fmt.Println("\nMiddle of the Linked List")
 	head := ListNode{5, nil}
 	next := ListNode{1, nil}
 	next1 := ListNode{2, &next}
