@@ -1,35 +1,20 @@
 package middleNode
 
 import (
+	"LeetCodePatterns/Easy/Patterns/isPalindrome"
 	"fmt"
-	"strconv"
 )
 
 func Example() {
 	fmt.Println("\nMiddle of the Linked List")
-	head := ListNode{5, nil}
-	next := ListNode{1, nil}
-	next1 := ListNode{2, &next}
-	head.Next = &next1
+	arr := []int{5, 1, 1, 5}
+	head := isPalindrome.ArrayToList(arr, len(arr))
 	fmt.Println("list = [5 2 1]")
-	result := middleNode(&head)
-	fmt.Println("result = " + result.show())
+	result := middleNode(head)
+	fmt.Println("result = " + result.Show())
 }
 
-type ListNode struct {
-	Val  int
-	Next *ListNode
-}
-
-func (n *ListNode) show() string {
-	res := ""
-	for i := n; i != nil; i = i.Next {
-		res += strconv.Itoa(i.Val) + " "
-	}
-	return res
-}
-
-func middleNode(head *ListNode) *ListNode {
+func middleNode(head *isPalindrome.ListNode) *isPalindrome.ListNode {
 	c := 0
 	for i := head; i != nil; i = i.Next {
 		c++

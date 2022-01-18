@@ -1,7 +1,7 @@
 package main
 
 import (
-	"LeetCodePatterns/Easy/Patterns/middleNode"
+	"LeetCodePatterns/Easy/Patterns/isPalindrome"
 )
 
 func main() {
@@ -17,5 +17,6 @@ func main() {
 	//rangeSumQuery.Example()
 	//countingBits.Example()
 	//linkedListCycle.Example()
-	middleNode.Example()
+	//middleNode.Example()
+	isPalindrome.Example()
 }
