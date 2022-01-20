@@ -30,7 +30,7 @@ Here is list of patterns solved/not yet solved.
  
 ![solved](/Assets/Pictures/mark.png "solved") Remove Duplicates from Sorted List
  
-![solved](/Assets/Pictures/mark.png "solved") Reverse Linked List
+![solved](/Assets/Pictures/mark.png "solved") [Reverse Linked List](https://leetcode.com/problems/reverse-linked-list/)
  
 ![not yet solved](/Assets/Pictures/unmark.png "not yet solved") Merge Two Sorted Lists
  
