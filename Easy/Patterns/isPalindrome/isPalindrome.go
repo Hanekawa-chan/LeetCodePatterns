@@ -1,53 +1,26 @@
 package isPalindrome
 
 import (
+	"LeetCodePatterns/Easy/utils"
 	"fmt"
-	"strconv"
 )
 
 func Example() {
 	fmt.Println("\nPalindrome Linked List")
 	arr := []int{5, 1, 1, 5}
-	head := ArrayToList(arr, len(arr))
+	head := utils.ArrayToList(arr, len(arr))
 	fmt.Println("list =", arr)
 	result := isPalindrome(head)
 	fmt.Println("result =", result)
 }
 
-type ListNode struct {
-	Val  int
-	Next *ListNode
-}
-
-func (n *ListNode) Show() string {
-	res := ""
-	for i := n; i != nil; i = i.Next {
-		res += strconv.Itoa(i.Val) + " "
-	}
-	return res
-}
-
-func insert(root *ListNode, item int) *ListNode {
-	temp := ListNode{item, root}
-	root = &temp
-	return root
-}
-
-func ArrayToList(arr []int, n int) *ListNode {
-	var root *ListNode
-	for i := n - 1; i >= 0; i-- {
-		root = insert(root, arr[i])
-	}
-	return root
-}
-
-func isPalindrome(head *ListNode) bool {
+func isPalindrome(head *utils.ListNode) bool {
 	size := 1
-	var temp *ListNode
+	var temp *utils.ListNode
 	if head.Next != nil {
 		for i := head; i != nil; i = i.Next {
 			size++
-			next := ListNode{i.Val, temp}
+			next := utils.ListNode{Val: i.Val, Next: temp}
 			temp = &next
 		}
 		t := head
