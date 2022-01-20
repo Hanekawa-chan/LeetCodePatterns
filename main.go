@@ -1,8 +1,6 @@
 package main
 
-import (
-	"LeetCodePatterns/Easy/Patterns/deleteDuplicates"
-)
+import "LeetCodePatterns/Easy/Patterns/reverseList"
 
 func main() {
 	//twoSum.Example()
@@ -20,5 +18,6 @@ func main() {
 	//middleNode.Example()
 	//isPalindrome.Example()
 	//removeElements.Example()
-	deleteDuplicates.Example()
+	//deleteDuplicates.Example()
+	reverseList.Example()
 }

@@ -6,8 +6,8 @@ import (
 )
 
 func Example() {
-	fmt.Println("\nRemove Duplicates from Linked List")
-	arr := []int{1, 1, 2, 2, 3, 3, 3, 4}
+	fmt.Println("\nReverse Linked List")
+	arr := []int{1, 7, 5, 2}
 	head := utils.ArrayToList(arr, len(arr))
 	fmt.Println("list =", arr)
 	result := reverseList(head)
@@ -15,6 +15,13 @@ func Example() {
 }
 
 func reverseList(head *utils.ListNode) *utils.ListNode {
-	node := head
-	return node
+	if head == nil {
+		return nil
+	}
+	var temp *utils.ListNode
+	for i := head; i != nil; i = i.Next {
+		next := utils.ListNode{Val: i.Val, Next: temp}
+		temp = &next
+	}
+	return temp
 }
