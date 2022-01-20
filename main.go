@@ -1,7 +1,7 @@
 package main
 
 import (
-	"LeetCodePatterns/Easy/Patterns/isPalindrome"
+	"LeetCodePatterns/Easy/Patterns/removeElements"
 )
 
 func main() {
@@ -18,5 +18,6 @@ func main() {
 	//countingBits.Example()
 	//linkedListCycle.Example()
 	//middleNode.Example()
-	isPalindrome.Example()
+	//isPalindrome.Example()
+	removeElements.Example()
 }
