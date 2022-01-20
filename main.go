@@ -1,7 +1,7 @@
 package main
 
 import (
-	"LeetCodePatterns/Easy/Patterns/removeElements"
+	"LeetCodePatterns/Easy/Patterns/deleteDuplicates"
 )
 
 func main() {
@@ -19,5 +19,6 @@ func main() {
 	//linkedListCycle.Example()
 	//middleNode.Example()
 	//isPalindrome.Example()
-	removeElements.Example()
+	//removeElements.Example()
+	deleteDuplicates.Example()
 }

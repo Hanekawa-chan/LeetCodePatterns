@@ -20,16 +20,16 @@ func removeElements(head *isPalindrome.ListNode, val int) *isPalindrome.ListNode
 		if head.Val != val {
 			node = head
 		} else {
-			node = walk(head, val)
+			node = Walk(head, val)
 			if node == nil {
 				return node
 			}
 		}
-		next := walk(node, val)
+		next := Walk(node, val)
 		node.Next = next
 		if node.Next != nil {
 			for i := next; i != nil; {
-				i.Next = walk(i, val)
+				i.Next = Walk(i, val)
 				i = i.Next
 			}
 		}
@@ -40,7 +40,7 @@ func removeElements(head *isPalindrome.ListNode, val int) *isPalindrome.ListNode
 
 }
 
-func walk(head *isPalindrome.ListNode, val int) *isPalindrome.ListNode {
+func Walk(head *isPalindrome.ListNode, val int) *isPalindrome.ListNode {
 	for i := head.Next; i != nil; i = i.Next {
 		if i.Val == val {
 			continue
