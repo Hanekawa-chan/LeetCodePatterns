@@ -1,6 +1,8 @@
 package main
 
-import "LeetCodePatterns/Easy/Patterns/reverseList"
+import (
+	"LeetCodePatterns/Easy/Patterns/mergeTwoLists"
+)
 
 func main() {
 	//twoSum.Example()
@@ -19,5 +21,6 @@ func main() {
 	//isPalindrome.Example()
 	//removeElements.Example()
 	//deleteDuplicates.Example()
-	reverseList.Example()
+	//reverseList.Example()
+	mergeTwoLists.Example()
 }

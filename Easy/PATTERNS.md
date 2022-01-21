@@ -31,8 +31,8 @@ Here is list of patterns solved/not yet solved.
 ![solved](/Assets/Pictures/mark.png "solved") [Remove Duplicates from Sorted List](https://leetcode.com/problems/remove-duplicates-from-sorted-list/)
  
 ![solved](/Assets/Pictures/mark.png "solved") [Reverse Linked List](https://leetcode.com/problems/reverse-linked-list/)
- 
-![not yet solved](/Assets/Pictures/unmark.png "not yet solved") [Merge Two Sorted Lists](https://leetcode.com/problems/merge-two-sorted-lists/)
+
+![solved](/Assets/Pictures/mark.png "solved") [Merge Two Sorted Lists](https://leetcode.com/problems/merge-two-sorted-lists/)
  
 ![not yet solved](/Assets/Pictures/unmark.png "not yet solved") [Binary Search](https://leetcode.com/problems/binary-search/)
  
