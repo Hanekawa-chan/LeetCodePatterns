@@ -8,4 +8,5 @@ Almost every solution is the best. Someday I will describe every solved problem 
 * [Easy](https://github.com/Hanekawa-chan/LeetCodePatterns/blob/master/Easy/PATTERNS.md) (17/36)
 * [Medium](https://github.com/Hanekawa-chan/LeetCodePatterns/blob/master/Medium/PATTERNS.md) (0/105)
 * [Hard](https://github.com/Hanekawa-chan/LeetCodePatterns/blob/master/Hard/PATTERNS.md) (0/30)
+
 Total(17/171)
