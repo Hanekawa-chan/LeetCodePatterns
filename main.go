@@ -1,8 +1,6 @@
 package main
 
-import (
-	"LeetCodePatterns/Easy/Patterns/mergeTwoLists"
-)
+import "LeetCodePatterns/Easy/Patterns/binarySearch"
 
 func main() {
 	//twoSum.Example()
@@ -22,5 +20,6 @@ func main() {
 	//removeElements.Example()
 	//deleteDuplicates.Example()
 	//reverseList.Example()
-	mergeTwoLists.Example()
+	//mergeTwoLists.Example()
+	binarySearch.Example()
 }
