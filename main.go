@@ -1,8 +1,6 @@
 package main
 
-import (
-	"LeetCodePatterns/Easy/Patterns/nextGreatestLetter"
-)
+import "LeetCodePatterns/Easy/Patterns/peakIndexInMountainArray"
 
 func main() {
 	//twoSum.Example()
@@ -24,5 +22,6 @@ func main() {
 	//reverseList.Example()
 	//mergeTwoLists.Example()
 	//binarySearch.Example()
-	nextGreatestLetter.Example()
+	//nextGreatestLetter.Example()
+	peakIndexInMountainArray.Example()
 }

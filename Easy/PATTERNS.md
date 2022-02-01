@@ -37,8 +37,8 @@ Here is list of patterns solved/not yet solved.
 ![solved](/Assets/Pictures/mark.png "solved") [Binary Search](https://leetcode.com/problems/binary-search/)
 
 ![solved](/Assets/Pictures/mark.png "solved") [Find Smallest Letter Greater Than Target](https://leetcode.com/problems/find-smallest-letter-greater-than-target/)
- 
-![not yet solved](/Assets/Pictures/unmark.png "not yet solved") [Peak Index in a Mountain Array](https://leetcode.com/problems/peak-index-in-a-mountain-array/)
+
+![solved](/Assets/Pictures/mark.png "solved") [Peak Index in a Mountain Array](https://leetcode.com/problems/peak-index-in-a-mountain-array/)
  
 ![not yet solved](/Assets/Pictures/unmark.png "not yet solved") [Average of Levels in Binary Tree](https://leetcode.com/problems/average-of-levels-in-binary-tree/)
  
