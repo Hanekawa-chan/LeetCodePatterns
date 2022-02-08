@@ -3,7 +3,7 @@ package binarySearch
 import "fmt"
 
 func Example() {
-	fmt.Println("\nMax Profit")
+	fmt.Println("\nBinary Search")
 	nums := []int{-1, 0, 3, 5, 9, 12}
 	fmt.Println("nums =", nums)
 	result := search(nums, 0)
