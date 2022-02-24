@@ -5,8 +5,8 @@ My solutions of [Leetcode Patterns](https://seanprashad.com/leetcode-patterns/),
 Almost every solution is the best. Someday I will describe every solved problem and their efficiency.
 
 ### Lists
-* [Easy](https://github.com/Hanekawa-chan/LeetCodePatterns/blob/master/Easy/PATTERNS.md) (21/36)
+* [Easy](https://github.com/Hanekawa-chan/LeetCodePatterns/blob/master/Easy/PATTERNS.md) (22/36)
 * [Medium](https://github.com/Hanekawa-chan/LeetCodePatterns/blob/master/Medium/PATTERNS.md) (0/105)
 * [Hard](https://github.com/Hanekawa-chan/LeetCodePatterns/blob/master/Hard/PATTERNS.md) (0/30)
 
-Total 21/171 (12.2%)
+Total 22/171 (12.8%)

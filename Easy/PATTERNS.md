@@ -41,8 +41,8 @@ Here is list of patterns solved/not yet solved.
 ![solved](/Assets/Pictures/mark.png "solved") [Peak Index in a Mountain Array](https://leetcode.com/problems/peak-index-in-a-mountain-array/)
 
 ![solved](/Assets/Pictures/mark.png "solved") [Average of Levels in Binary Tree](https://leetcode.com/problems/average-of-levels-in-binary-tree/)
- 
-![not yet solved](/Assets/Pictures/unmark.png "not yet solved") [Minimum Depth of Binary Tree](https://leetcode.com/problems/minimum-depth-of-binary-tree/)
+
+![solved](/Assets/Pictures/mark.png "solved") [Minimum Depth of Binary Tree](https://leetcode.com/problems/minimum-depth-of-binary-tree/)
  
 ![not yet solved](/Assets/Pictures/unmark.png "not yet solved") [Same Tree](https://leetcode.com/problems/same-tree/)
  

@@ -1,6 +1,8 @@
 package main
 
-import "LeetCodePatterns/Easy/Patterns/averageOfLevels"
+import (
+	"LeetCodePatterns/Easy/Patterns/minDepth"
+)
 
 func main() {
 	//twoSum.Example()
@@ -24,5 +26,6 @@ func main() {
 	//binarySearch.Example()
 	//nextGreatestLetter.Example()
 	//peakIndexInMountainArray.Example()
-	averageOfLevels.Example()
+	//averageOfLevels.Example()
+	minDepth.Example()
 }
