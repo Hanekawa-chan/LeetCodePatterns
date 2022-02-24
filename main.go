@@ -1,7 +1,7 @@
 package main
 
 import (
-	"LeetCodePatterns/Easy/Patterns/minDepth"
+	"LeetCodePatterns/Easy/Patterns/isSameTree"
 )
 
 func main() {
@@ -27,5 +27,6 @@ func main() {
 	//nextGreatestLetter.Example()
 	//peakIndexInMountainArray.Example()
 	//averageOfLevels.Example()
-	minDepth.Example()
+	//minDepth.Example()
+	isSameTree.Example()
 }
